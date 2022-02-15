@@ -1,0 +1,78 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    /* background-image: url('./src/image1.jpeg');
+    background-repeat: no-repeat; */
+    /* background-image: url('https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg'); */
+}
+
+.left{
+    /* color: white; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid darkgreen;
+    /* text-align: center; */
+}
+
+.left h3 {
+    padding-left: 3px;
+    font-size: 10px;
+}
+
+.left img{
+    width: 70px;
+}
+.left div{
+    text-align: center;
+}
+
+.mid{
+    /* color: white;/ */
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid darkred;
+}
+.right{
+    /* color: white; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 4px 10px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.btn{
+    margin: 0px 9px; 
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor:pointer;
+
+}
